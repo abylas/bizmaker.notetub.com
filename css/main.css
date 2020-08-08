@@ -7,10 +7,11 @@ body
 	background: #EFEFEF;
 }
 
+/*Css for making site to be Dark Mode.*/
 .container {background-color: black;}
 .row label {color: white;}
 .name p{color: white;}
-
+.hiddenCB div label{color: white;}
 
 div.parent
 {
