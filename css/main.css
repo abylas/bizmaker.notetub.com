@@ -9,6 +9,7 @@ body
 
 .container {background-color: black;}
 .row label {color: white;}
+.name p{color: white;}
 
 
 div.parent
