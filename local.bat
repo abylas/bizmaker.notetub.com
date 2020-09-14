@@ -15,6 +15,8 @@
 @ECHO OFF
 :: This batch file helps merge your current feature breanch to develop, then master, then reease, and then tags it. you still need to pull wherever you need it. and switch back to a new branch. and upgrade your version number
 
+
+
 TITLE Git Feature Branch Merge and Tag
 
 
@@ -22,6 +24,10 @@ ECHO ============================
 ECHO Usage: .\local.bat feature-name tag-version-number TAG-DESCRIPTION Future-feature-branch-version-name
 ECHO Example : local.bat f91401 v-9.14.0.1 "Tag for feature branch version 9.14.0.1 f91501" 
 ECHO ============================
+
+
+ECHO Removing ava.notetub.com.git if it exists, recursively
+Remove-Item -Recurse -Force ava.notetub.com.git
 
 
 ECHO Please wait... Working on git commands.
