@@ -7,18 +7,6 @@ from github import Github
 #  HOW TO RUN this script - > type command below on command line or powershell while in same dir with git n local.py
 #        "C:\Program Files (x86)\Microsoft Visual Studio\Shared\Anaconda3_64\python.exe" local.py
 
-# MAKE thre four of thse scripts, one for one go from
-# 1. onegofeaturetoprod
-# 2. feature to release
-# 3.  release to prod
-# 4. release to prod plus tag
-
-
-# main
-# get the feature branch name
-# curr_branch_name = sys.argv[1]
-# release_branch_version_number = sys.argv[2]
-# param_3= sys.argv[3]
 
 FULL_DIR = os.getcwd()
 os.chdir(FULL_DIR)
@@ -39,11 +27,8 @@ def exit_on_failure_command(cmd):
 
 def sync_master():
 
-
         os.chdir(FULL_DIR)
         g = Github("abylas", "gitme41")
-
-        url = "https://github.com/abylas/GitWorkflow.git"
 
 
         # Steps to make this work
