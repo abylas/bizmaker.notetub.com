@@ -25,6 +25,9 @@ ECHO Usage: .\clone.bat
 ECHO ============================
 
 
+ECHO Removing ava.notetub.com.git if it exists, recursively
+Remove-Item -Recurse -Force ava.notetub.com.git
+
 ECHO Please wait... Working on git commands.
 
 ECHO ============================
