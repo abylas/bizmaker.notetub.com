@@ -78,12 +78,12 @@ return array(
 		// uncomment the following to use a MySQL database
 
 		
-/*production-settings*/
+/*mine database production-settings - useful for all apps that should be seen by only mee*/
                 'db'=>array(
-                        'connectionString' => 'mysql:host=localhost;dbname=notetubc_dns',
+                        'connectionString' => 'mysql:host=localhost;dbname=notetubc_mine',
                         'emulatePrepare' => true,
-                        'username' => 'notetubc_root',
-                        'password' => 'root1',
+                        'username' => 'notetubc_tarzan',
+                        'password' => 'tarzan_root1',
                         'charset' => 'utf8',
             'tablePrefix' => 'tbl_',
                 ),
